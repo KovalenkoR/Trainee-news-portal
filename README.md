@@ -1,2 +1,2 @@
 # Trainee-news-portal
-Trainee project news portal
+Trainee prnew commit
