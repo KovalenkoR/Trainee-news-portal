@@ -1,2 +1,4 @@
 # Trainee-news-portal
-Trainee prnew commit
+Trainee project
+new commit
+create repository
