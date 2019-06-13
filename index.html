@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script defer src="script.js"></script>
+	 <style>
+    .carousel{
+      width: 1000px;
+      margin: 0 auto;
+      height: 600px;
+      
+    }
+    .okno{
+      width: 400px;
+      height: 400px;
+      margin: 0 auto;
+      position: relative;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+    #btnLeft{
+      position: absolute;
+      top: 150px;
+      left: -80px;
+      color: black;
+    }
+    #btnRight{
+      position: absolute;
+      top: 150px;
+      left: 435px;
+      color: black;
+    }
+    /*#right::before{
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      border-right: 1px solid black;
+      border-top: 1px solid black;
+      top: 150px;
+      right: 30px;
+      transform: rotate();*/
+
+
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel">
+    <div class="okno">
+      <button id="btnLeft" onclick="">LEFT</button>
+      <img src="images/A_Young_Leo.png" alt="" id="photo">
+      <button id="btnRight" onclick="">RIGHT</button>
+
+    </div>
+  </div>
+	
+	
+</body>
+</html>
